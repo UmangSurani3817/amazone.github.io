@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Amazone Online Shopping</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="icon" type="text/icon" href="images/favcon.ico">
+    <style>
+        body
+        {
+            margin: 0%;
+            padding: 0px;
+            overflow-x: hidden;
+            background-color: lightgray;
+        }
+
+        #header
+        {
+            width: 100%;
+            height: 70px;
+            background-color: #000;
+            float: left;
+            position: static;
+            top: 0;
+        }
+
+        .logo
+        {
+            width: 11%;
+            height: auto;
+            float: left;
+            margin-left: 1.8%;
+            margin-top: 1%;
+        }
+
+        .logo img
+        {
+            width: 100%;
+            height: 50px;
+        }
+
+        .location
+        {
+            width: 11%;
+            height: auto;
+            float: left;
+            margin-left: 0.8%; 
+        }
+
+        .location p
+        {
+            color: #fff;
+        }
+
+        .location img
+        {
+            width: 15px;
+            height: 15px;
+        }
+
+        .option
+        {
+            width: 3%;
+            height: auto;
+            float: left;
+            margin-top: 1.5%;
+            margin-left: 1%;
+        }
+
+        .option select
+        {
+            width: 100%;
+            height: 30px;
+            margin: 0%;
+            background-color: #f3f3f3;
+        }
+
+        .searchbox
+        {
+            float: left;
+            margin-top: 1.5%;
+            width: 35%;
+            height: 40px;
+        }
+
+        .searchbox input
+        {
+            height: 30px;
+            width: 100%;
+        }
+
+        .btn
+        {
+            width: 5%;
+            height:40px;
+            float: left;
+            margin-top: 1.5%;
+            
+        }
+
+        .btn input
+        {
+            width:100%;
+            height: 30.5px;
+            background-color: rgb(244, 167, 68);
+            border-radius: 1;
+        }
+
+        .lan
+        {
+            width: 3%;
+            height: auto;
+            background-color: #000;
+            float: left;
+            margin-left: 2%;
+            margin-top: 1.5%;
+         }
+        
+         .lan select
+         {
+            width: 100%;
+            height: 40px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+         }
+
+         .sign-in
+         {
+            width: 7.5%;
+            height: 70px;
+            float: left;
+            background-color: #000;
+            margin-left: 2%;
+        }
+
+         .sign-in h5
+         {
+            line-height: 0%;
+            color: #fff;
+            font-size: 12px;
+            padding: 0px;
+            margin-bottom: 7%;
+
+         }
+
+         .sign-in select
+         {
+            width: 100%;
+            height: 20px;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 0%;
+         }
+
+         .return
+         {
+            width: 6%;
+            height: auto;
+            float: left;
+            margin-left: 2%;
+            color: #fff;
+            margin-top: 0.8%;
+         }
+
+         .return h3
+         {
+            line-height: 0%;
+            color: #fff;
+            font-size: 12px;
+            padding: 0px;
+            margin-bottom: 7%;
+
+         }
+
+         .cart
+         {
+            width: fit-content;
+            height: auto;
+            float: left;
+            margin-top: 0.8%;
+         }
+
+         .cart h3
+         {
+            line-height: 0%;
+            color: #fff;
+            font-size: 12px;
+            padding: 0px;
+            margin-bottom: 7%;
+
+         }
+
+         .cart img
+         {
+            width: 40px;
+            height: 40px;
+         }
+
+         .carttext
+         {
+            width: fit-content;
+            color: #fff;
+            float: left;
+            margin-top: 7px;
+            margin-right: 1px;
+         }
+/* End Header */
+
+/* Start navbar */
+         #menubar
+         {
+            float: left;
+            width: 100%;
+            height: 45px;
+            background-color: #232f3e;
+            margin: 0%;
+         }
+
+         .navbar
+         {
+            width: 65%;
+            height: auto;
+         }
+            
+         .navbar ul li
+         {
+            display: inline-block;
+            padding: 0px 4px;
+         }
+
+         .navbar a
+         {
+            text-decoration: none;
+            list-style-type:none;
+            color: #fff;
+         }
+
+         .navimg
+         {
+            width: 25%;
+            float: left;
+            height: auto;
+            background-color: #fff;
+         }
+
+        .navimg img
+        {
+            width: 100%;
+            height: auto;
+        }
+/* End Start navbar */
+
+/* start Side bar */
+         #sidebar
+         {
+            width: 100%;
+            float: left;
+            background: linear-gradient(rgba(0,0,0,0.1),#fff),url(images/Rec_PC_hero_1_2x._CB589392810_.jpg);
+            background-size: cover;
+            height: 800px; 
+        }
+
+        .boxI
+        {
+            width: 100%;
+            height: auto;
+            margin-top: 350px;
+            float: left;
+        }
+
+        .box1
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box1 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box2
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box2 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box3
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box3 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box4
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .boxa
+        {
+            width: 100%;
+            float: left;
+            height: 20%;
+        }
+
+        .boxa button
+        {
+            width: 325px;
+            background-color: yellow;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+        }  
+        
+        .boxb
+        {
+            width: 100%;
+            float:left;
+            height: 65%;
+            margin-top: 20%;
+        }
+
+        .boxII
+        {
+            width: 100%;
+            height: auto;
+            float: left;
+            background-color: #fff;
+        }
+
+        .box5
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box5 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box6
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box6 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box7
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box7 img
+        {
+            width: 40%;
+            padding: 7px;
+            height: 130px;
+        }
+
+        .box8
+        {
+            width: 22%;
+            height: 450px;
+            float: left;
+            margin-left: 2%;
+        }
+
+        .box8 img
+        {
+            width: 100%;
+            height: 285px;
+        }
+        /*End of Side bar*/
+
+        /* Start content*/
+
+        #content
+        {
+            width: 100%;
+            height: 450px;
+            background-color: #fff;
+            float: left;
+            padding: 0%;
+            margin-top: 30%;
+        }
+
+        .boxA
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin-left: 2%;
+        }
+
+        .boxB
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxC
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxD
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxE
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxF
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        #content-1
+        {
+            width: 100%;
+            height: auto;
+            background-color: #fff;
+            float: left;
+            padding: 0%;
+            margin-top: 30.5%;
+        }
+
+        .boxA
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin-left: 2%;
+        }
+
+        .boxB
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxC
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxD
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxE
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxF
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        #content-2
+        {
+            width: 100%;
+            height: 300px;
+            background-color: #fff;
+            float: left;
+            margin-top: 0.5%;
+        }
+
+        .boxG
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin-left:   2%;
+        }
+
+        .boxH
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxIA
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxJ
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxK
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .boxL
+        {
+            width: 16%;
+            height: auto;
+            float: left;
+            padding: 0%;
+            margin: 0%;
+        }
+        /* End of content*/
+
+        /* Start of footer */
+
+        #footer
+        {
+            width: 100%;
+            height: auto;
+            float: left;
+            background-color: #232f3e;
+            margin-top: 0.5%;
+        }
+
+        .sign-in1
+        {
+            width: 100%;
+            height: 100px;
+            float: left;
+            background-color: #fff;
+        }
+
+        .sign-in1 p
+        {
+            text-align: center;
+            margin: 0.3%;
+        }
+
+        .sign-in1 button
+        {
+            width: 250px;
+            background-color: yellow;
+            border: none;
+            border-radius: 10px;
+            height: 25px;
+        }
+
+        .backtotop
+        {
+            width: 100%;
+            height: 45px;
+            float: left;
+            background-color: #37475a;
+        }
+
+        .backtotop p
+        {
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            margin: 1%;
+        }
+
+        .backtotop a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .footer-content1
+        {
+            width: 100%;
+            height: 700px;
+            float: left;
+        }
+
+        .con1
+        {
+            width:15%;
+            height: auto;
+            float: left;
+            margin-left: 15%;
+        }
+
+        .con1 ul li
+        {
+            padding: 2%;
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .con1 a
+        {
+            text-decoration: none;
+            color: #fff;
+
+            
+        }
+        .active
+        {
+            text-decoration: none;
+        }
+
+        .con2
+        {
+            width:15%;
+            height: auto;
+            float: left;
+            margin:0%;
+        }
+
+        .con2 ul li
+        {
+            padding: 2%;
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .con2 a
+        {
+            text-decoration: none;
+            color: #fff;
+
+            
+        }
+        .active
+        {
+            text-decoration: none;
+        }
+
+        .con3
+        {
+            width:20%;
+            height: auto;
+            float: left;
+            margin:0%;
+        }
+
+        .con3 ul li
+        {
+            padding: 2%;
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .con3 a
+        {
+            text-decoration: none;
+            color: #fff;
+
+            
+        }
+        .active
+        {
+            text-decoration: none;
+        }
+
+        .con4
+        {
+            width:20%;
+            height: auto;
+            float: left;
+            margin:0%;
+        }
+
+        .con4 ul li
+        {
+            padding: 2%;
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .con4 a
+        {
+            text-decoration: none;
+            color: #fff;
+
+            
+        }
+        .active
+        {
+            text-decoration: none;
+        }
+
+        .f-logo
+        {
+            width: 50%;
+            height: auto;
+            float: left;
+        }
+
+        .f-logo img
+        {
+            width: 100px;
+            height: 50px;
+            margin-left: 75%;
+            margin-top: 5%;
+        }
+
+        .f-lan
+        {
+            width: 50%;
+            height: 50px;
+            margin-top: 3%;
+            float: left;
+        }
+
+        .f-lan select
+        {
+            width: 15%;
+            height: 40px;
+            background-color:#232f3e;
+            color: #fff;
+        }
+
+        .country
+        {
+            width: 100%;
+            float: left;
+            height: 70px;
+        }
+
+        .country ul li
+        {
+            list-style-type: none;
+            color: #fff;
+            display: inline-block;
+            padding: 0px 12px;
+            margin: 0%;
+            text-align: center;
+        }
+
+        .country a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-con
+        {
+            width: 100%;
+            float: left;
+            height: auto;
+            background-color: #131a22;
+            font-size: 12px;
+        }
+
+        .f-con1
+        {
+            width: 15%;
+            float: left;
+            height: auto;
+            margin-left: 10%;
+        }
+
+        .f-con1 ul li
+        {
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .f-con1 a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-con2
+        {
+            width: 15%;
+            float: left;
+            height: auto;
+            margin-left: 0%;
+        }
+
+        .f-con2 ul li
+        {
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .f-con2 a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-con3
+        {
+            width: 15%;
+            float: left;
+            height: auto;
+            margin-left:2%;
+        }
+
+        .f-con3 ul li
+        {
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .f-con3 a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-con4
+        {
+            width: 15%;
+            float: left;
+            height: auto;
+            margin-left:2%;
+        }
+
+        .f-con4 ul li
+        {
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .f-con4 a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-con5
+        {
+            width: 15%;
+            float: left;
+            height: auto;
+            margin-left:2%;
+        }
+
+        .f-con5 ul li
+        {
+            list-style-type: none;
+            color: #fff;
+        }
+
+        .f-con5 a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .f-conlast
+        {
+            width: 100%;
+            height: auto;
+            background-color: #131a22;
+            float: left;
+            color: #fff;
+            text-align: center;
+        }
+
+        a:hover
+        {
+            text-decoration: underline;
+        }
+        /* End of footer */
+    </style>
+</head>
+<body>
+    <!--Header section-->
+    <div id="header">
+        <div class="logo">
+            <img src="images/a (1).png">
+        </div>
+        <div class="location">
+            <p>&nbsp&nbsp&nbsp Hello<br>
+            <img src="images/placeholder.png"><b>Select your address</b></p>
+        </div>
+        <div class="option">
+            <select>
+            <option value="">All</option>
+            <option value="1">All Catagaroies</option>
+            <option value="2">Alexa Skill</option>
+            <option value="3">Amazone Device</option>
+            <option value="4">Amazone Fashion</option>
+            <option value="5">Amazone Fresh</option>
+            <option value="6">Amazone Pharmacy</option>
+            </select>
+        </div>
+        <div class="searchbox">
+            <input type="search" placeholder="Search Here">
+        </div>
+        <div class="btn">
+            <input type="button" value="search">
+        </div>
+        <div class="lan">
+            <select>
+                <option value="">EN</option>
+                <option value="1">English</option>
+                <option value="2">Hindi</option>
+                <option value="3">Telugu</option>
+                <option value="4">Tamil</option>
+                </select>
+        </div>
+        <div class="sign-in">
+           <h5>&nbsp Hello Sign-in</h5>
+            <select>                
+                <option value="">Account & Lists</option>
+                <option value="1">sign-in</option>
+                <option value="2">forget password</option>
+            </select>
+        </div>
+        <div class="return">Returns<h3>& Orders</h3></div>
+        <div class="cart"><img src="images/download-removebg-preview.png"></div>
+        <div class="carttext"><h3>cart</h3></div>
+    </div>
+<!-- End header section -->
+ 
+
+<!-- Start Navbar -->
+    <div id="menubar">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">Amazone MiniTV</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Best Seller</a></li>
+                <li><a href="#">Mobiles</a></li>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">New Release</a></li>
+                <li><a href="#">Prime</a></li>
+
+            </ul>
+        </div>
+
+    
+        <div class="navimg"><img src="images/SWM_400x39_LiveNow._CB590561779_.jpg"></div>
+    </div>
+
+
+<!-- End Start Navbar -->
+
+<!-- Start sidebar -->
+<div id="sidebar">
+    <div class="boxI">
+        <div class="box1">
+        <h2>Starting $99| Budget buys<br>in books, toys & more</h2>
+        <img src="images/img1_.jpg">
+        <img src="images/img2_.jpg">
+        <img src="images/img3_.jpg">
+        <img src="images/img4_.jpg">
+        </div>
+
+        <div class="box2">    
+        <h2>Smartphones that suits<br> your budget</h2>
+        <img src="images/img5_.jpg">
+        <img src="images/img6_.jpg">
+        <img src="images/img7_.jpg">
+        <img src="images/img8.jpg">
+        </div>
+
+        <div class="box3">
+        <h2>Under ₹499 | Pocket-<br>friendly Fashion</h2>
+        <img src="images/img9_.jpg">
+        <img src="images/img10_.jpg">
+        <img src="images/img11_.jpg">
+        <img src="images/img12_.jpg">
+        </div>
+
+        <div class="box4">
+            <div class="boxa">
+                <h2>Sign in for your best<br> experience</h2>
+                <button type="button" value="Sign-in">Sign-In Securaly</button>
+            </div>
+            <div class="boxb"><img src="images/img13_.jpg"></div>
+            
+        </div>
+    </div>
+    <div class="boxII">
+        <div class="box5">
+        <h2>Starting ₹79 | Home,<br>kitchen & more</h2>
+        <img src="images/img14.jpg">
+        <img src="images/img15.jpg">
+        <img src="images/img16.jpg">
+        <img src="images/img17.jpg">
+        </div>
+    
+        <div class="box6">    
+        <h2>Starting ₹99 | Amazon<br>Brands & more</h2>
+        <img src="images/img18.jpg">
+        <img src="images/img19.jpg">
+        <img src="images/img20_.jpg">
+        <img src="images/img21.jpg">
+        </div>
+    
+        <div class="box7">
+        <h2>Under ₹499 | Pocket-<br>friendly Fashion</h2>
+        <img src="images/img22.jpg">
+        <img src="images/img23.jpg">
+        <img src="images/img24.jpg">
+        <img src="images/img25.jpg">
+        </div>
+
+        <div class="box8">
+            <h2>Under ₹499 | Pocket-<br>friendly Fashion</h2>
+            <img src="images/img26.jpg"> 
+            </div>
+    </div>
+</div>
+<!-- End of side bar -->
+
+<!-- Start content -->
+<div id="content-1">
+    <h2>&nbsp&nbsp&nbsp&nbsp&nbspStarting ₹899 + ₹100 cashback on UPI payments | Smartwatches</h2>
+    <div class="boxA"><img src="images/img28.jpg"></div>
+    <div class="boxB"><img src="images/img29.jpg"></div>
+    <div class="boxC"><img src="images/img30.jpg"></div>
+    <div class="boxD"><img src="images/img31.jpg"></div>
+    <div class="boxE"><img src="images/img32.jpg"></div>
+    <div class="boxF"><img src="images/img33.jpg"></div>
+</div>
+<div id="content-2">
+    <h2>&nbsp&nbsp&nbsp&nbsp&nbspShop deals in top categories</h2>
+    <div class="boxG"><img src="images/img34.jpg"></div>
+    <div class="boxH"><img src="images/img35.jpg"></div>
+    <div class="boxIA"><img src="images/img36.jpg"></div>
+    <div class="boxJ"><img src="images/img37.jpg"></div>
+    <div class="boxK"><img src="images/img38.jpg"></div>
+    <div class="boxL"><img src="images/img40.jpg"></div>
+</div>
+
+<!-- End of content -->
+
+<!-- Start footer -->
+<div id="footer">
+    <div class="sign-in1">
+        <p>See personalized recommendations</p>
+        <center><button type="button">Sign-In</button></center>
+        <p>New customer?<a href="#">Start here</a></p>
+    </div>
+    <div class="backtotop">
+        <p><a href="#">Back to top</a></p>
+    </div>
+    <div class="footer-content1">
+        <div class="con1">
+        
+        <ul>
+            <li class="active"><h3>Get to know us</h3></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press Release</a></li>
+            <li><a href="#">Amazone Science</a></li>
+        </ul>
+        </div>
+        <div class="con2">
+        
+        <ul>
+            <li class="active"><h3>Connect with Us</h3></li>
+            <li><a href="#">Facbook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        </div>
+        <div class="con3">
+        
+            <ul>
+                <li class="active"><h3>Make Money with Us</h3></li>
+                <li><a href="#">Sell on Amazon</a></li>
+                <li><a href="#">Sell Under Amazon Accelerator</a></li>
+                <li><a href="#">Protect and Build your Brand</a></li>
+                <li><a href="#">Amazon Global Selling</a></li>
+                <li><a href="#">Becom an Affiliate</a></li>
+                <li><a href="#">Fullfilment by Amazone</a></li>
+                <li><a href="#">Advertise Your Products</a></li>
+                <li><a href="#">Amazon pay on merchants</a></li>
+            </ul>
+        </div>
+        <div class="con4">
+        
+                <ul>
+                    <li class="active"><h3>Let Us Help You</h3></li>
+                    <li><a href="#">COVID-19 and Amazon</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Return Center</a></li>
+                    <li><a href="#">100% Purchase Protection</a></li>
+                    <li><a href="#">Amazon App Download</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+        </div>
+        <hr style="width: 100%; height: 0.5px; color: lightgrey;">
+        <div class="f-logo">
+            <img src="images/a (1).png">
+        </div>
+        <div class="f-lan">
+            <select>
+                <option value="">English</option>
+                <option value="1">English</option>
+                <option value="2">Hindi</option>
+                <option value="3">Telugu</option>
+                <option value="4">Tamil</option>
+                </select>
+        </div>
+        <div class="country">
+            <center>
+            <ul>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">Brazil</a></li>
+                <li><a href="#">Canada</a></li>
+                <li><a href="#">China</a></li>
+                <li><a href="#">France</a></li>
+                <li><a href="#">Germany</a></li>
+                <li><a href="#">Italy</a></li>
+                <li><a href="#">Japan</a></li>
+                <li><a href="#">Mexico</a></li>
+                <li><a href="#">Natherlands</a></li>
+                <li><a href="#">Poland</a></li>
+                <li><a href="#">Singapore</a></li>
+                <li><a href="#">Spain</a></li>
+                <li><a href="#">Turkey</a></li>
+                <li><a href="#">United Arab Emirates</a></li>
+                <li><a href="#">United Kingdom</a></li>
+                <li><a href="#">United States</a></li>
+            </ul>
+            </center>
+        </div>
+        <div class="f-con">
+            <div class="f-con1">
+                <ul>
+                    <a href="#"><li><b>Abebook</b></li>
+                    <li>Books& art</li>
+                    <li>& collextion</li></a><br>
+                    <a href="#"><li><b>Shopbop</b></li>
+                    <li>Designer</li>
+                    <li>Fashion Brands</li></a>
+                </ul>
+            </div>
+            <div class="f-con2">
+                <ul>
+                    <a href="#"><li><b>Amazon Web Service</b></li>
+                    <li>Scalable Cloud</li>
+                    <li>Computing Service</li></a><br>
+                    <a href="#"><li><b>Amazon Business</b></li>
+                    <li>Everything for</li>
+                    <li>Your Business</li></a>
+                </ul>
+            </div>
+            <div class="f-con3">
+                <ul>
+                    <a href="#"><li><b>Audible</b></li>
+                    <li>Download</li>
+                    <li>Audio Books</li></a><br>
+                    <a href="#"><li><b>Prime Now</b></li>
+                    <li>2-hours Delivery</li>
+                    <li>on everyday items</li></a>
+                </ul>
+            </div>
+            <div class="f-con4">
+                <ul>
+                    <a href="#"><li><b>DPReview</b></li>
+                    <li>Digital</li>
+                    <li>Photography</li></a><br>
+                    <a href="#"><li><b>Amazone Prime Music</b></li>
+                    <li>100 million songs, ad-free</li>
+                    <li>Over 15 million podcast episodes</li></a>
+                </ul>
+            </div>
+            <div class="f-con5">
+                <ul>
+                    <a href="#"><li><b>IMDb</b></li>
+                    <li>Movies, TV</li>
+                    <li>& Clebrities</li></a><br>
+                </ul>
+            </div>
+            <div class="f-conlast">
+                <p>Condition of Use & Sale &nbsp;&nbsp;&nbsp; Privercy Notice &nbsp;&nbsp;&nbsp; Intrest-Based Ads</p>
+                <p>©1996-2023,Amazon.com,Inc. or its affiliates</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End of footer -->
+</body>
+</html>
